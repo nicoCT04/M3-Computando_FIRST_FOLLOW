@@ -1,0 +1,4 @@
+# Gramática con epsilon en algunos no-terminales
+S -> A B
+A -> a | epsilon
+B -> b A

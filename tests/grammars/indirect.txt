@@ -1,0 +1,11 @@
+# Gramática clásica de expresiones (recursión a izquierda eliminada)
+# E  -> T E'
+# E' -> + T E' | epsilon
+# T  -> F T'
+# T' -> * F T' | epsilon
+# F  -> ( E ) | id
+E -> T EP
+EP -> + T EP | epsilon
+T -> F TP
+TP -> * F TP | epsilon
+F -> ( E ) | id

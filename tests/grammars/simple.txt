@@ -1,0 +1,7 @@
+# Gramática simple sin epsilon
+# L -> E ;
+# E -> E + T | T
+# T -> id | ( E )
+S -> A B
+A -> a
+B -> b c
